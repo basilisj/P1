@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Manager Reimbursement System</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Welcome Finance Mananger to the Reimbursement System</h1>
+        <h3>Please sign-in</h3>
+
+        <!-- You can include the method and action attributes to tell -->
+        <!-- The form where to send information, and how it should send it -->
+        <form id="login" action= 'login' method='post'>
+            <label for='username'>Username: </label>
+            <input id='username' type='text' name='username' maxlength='50' required id = 'username'/>
+            <lable for='password'>Password: </lable>
+            <input id='password' type='password' name='password' minlength='8' required/>
+            <input type='submit' value='Login' />
+        </form>
+        <script src='resources/js/login2.js'></script>
+        
+       
+    </body>
+</html>

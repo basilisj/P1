@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Finance Manager</title>
+        <meta charset = "utf-8">
+        <link rel="stylesheet" href="../css/helloSocialHub.css">
+    </head>
+    <body>
+        <!-- It is very common for lists to be used for navbars -->
+        <div class='navbar'>
+            <ul class='nav-list'>
+                <li class='nav-item'><a class='nav-link' href="profile.html"><img id='profile-pic' src='https://www.pngitem.com/pimgs/m/30-307416_profile-icon-png-image-free-download-searchpng-employee.png' height='60px' width='60px' /></a></li>
+                <li class='nav-item'><a class='nav-link' href='#'>View all employees</a></li>
+                <li class='nav-item'><a class='nav-link' href='#'>View all resolved requests of all employees</a></li>
+                <li class='nav-item'><a class='nav-link' href='#'>View all pending requests of all employees</a></li>
+                <li class='nav-item'><a class='nav-link' href='#'>View reimbursement requests of a specific employee</a></li>
+                <li class='nav-item'><a class='nav-link' href='#'>Approve/Deny pending reimbursement requests</a></li>
+                <li class='nav-item'><button id='logout'>Logout</button></li>
+            </ul>
+        </div>
+
+        <!-- This is a header element, they go from h1 to h6 -->
+        <div id='main'>
+            <h1>Finance Manager Services</h1>
+        	
+        	<form>
+        		<textarea id="reimbursement" name="reimbursement" cols="50" maxlength="250"
+                    placeholder="Type your post here"></textarea>
+                <button id="new-reimbursement">Submit new reimbursement</button>
+        	</form>
+        	
+            <div id="post-container">
+
+            </div>
+        </div>
+        <script src='../js/logout.js'></script>
+        <script src='../js/socialhub.js'></script>
+    </body>
+</html>
