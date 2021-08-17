@@ -16,6 +16,7 @@ PostgreSQL
 HTML
 JavaScript
 CSS
+Hibernate
 # Features
 List of features ready and TODOs for future development
 
